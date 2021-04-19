@@ -1,7 +1,7 @@
 EXEC tSQLt.NewTestClass 'LostAndFound_CalculateShipping_Tests';
 GO
 
-CREATE PROCEDURE LostAndFound_CalculateShipping_Tests.[test something]
+CREATE PROCEDURE LostAndFound_CalculateShipping_Tests.[test different permutation of different input parameters]
 AS
 BEGIN
 	DECLARE @ExpectedShippingCost INTEGER;
