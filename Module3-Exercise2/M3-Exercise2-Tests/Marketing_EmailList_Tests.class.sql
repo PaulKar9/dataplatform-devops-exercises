@@ -86,7 +86,7 @@ BEGIN
 
 	EXEC tSQLt.FakeTable 'Booking.Customers';
 
-	SELECT CustomerId, FirstName, LastName, Email, OptIn
+	SELECT CustomerId, FirstName, LastName, Email, OptIn AS
 	INTO ActualEmailList
 	FROM Marketing.EmailList
 
