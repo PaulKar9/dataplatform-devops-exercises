@@ -2,25 +2,38 @@
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="M3-Exercise4-Tests">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
-      <Items />
+      <Items>
+        <ConnectionNode Name="VAIM1-DBT-66\PaulKardash:AIMCO\paul.kardash">
+          <Created>2021-05-04T12:04:23.7548225-06:00</Created>
+          <Type>SQL</Type>
+          <Server>VAIM1-DBT-66\PaulKardash</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>m3ex4DB</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="build.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\PaulKardash:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\PaulKardash</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>build.sql</FullPath>
         </FileNode>
         <FileNode Name="Reports_HotelReservationCount_Tests.class.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\PaulKardash:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\PaulKardash</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Reports_HotelReservationCount_Tests.class.sql</FullPath>
         </FileNode>
         <FileNode Name="Reports_StateYearReservationCount_Tests.class.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\PaulKardash:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\PaulKardash</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Reports_StateYearReservationCount_Tests.class.sql</FullPath>
         </FileNode>
