@@ -2,13 +2,26 @@
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="M3-Exercise3">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
-      <Items />
+      <Items>
+        <ConnectionNode Name="VAIM1-DBT-66\PaulKardash:AIMCO\paul.kardash">
+          <Created>2021-05-04T11:22:22.9688741-06:00</Created>
+          <Type>SQL</Type>
+          <Server>VAIM1-DBT-66\PaulKardash</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="➜➜Run_This.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\PaulKardash:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\PaulKardash</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>➜➜Run_This.sql</FullPath>
         </FileNode>
