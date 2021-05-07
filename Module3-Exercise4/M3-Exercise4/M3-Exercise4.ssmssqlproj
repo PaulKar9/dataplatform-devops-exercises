@@ -20,8 +20,8 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="Booking.Customers.tbl.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\PaulKardash:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\PaulKardash</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Booking.Customers.tbl.sql</FullPath>
         </FileNode>
@@ -74,8 +74,8 @@
           <FullPath>Vendors.Hotels.tbl.sql</FullPath>
         </FileNode>
         <FileNode Name="Vendors.schema.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\PaulKardash:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\PaulKardash</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Vendors.schema.sql</FullPath>
         </FileNode>

@@ -58,7 +58,6 @@ AS
 BEGIN
 	EXEC tSQLt.FakeTable @TableName = N'Reservations', @SchemaName = N'Booking';
 	EXEC tSQLt.FakeTable @TableName = N'Hotels', @SchemaName = 'Vendors';
-	EXEC tSQLt.FakeTable @TableName = N'Customers', @SchemaName = N'Booking';
 	
 
 	INSERT INTO Vendors.Hotels(HotelId,Name, HotelState, CostPerNight, AdditionalColumns)
@@ -77,15 +76,13 @@ AS
 BEGIN
 	EXEC tSQLt.FakeTable @TableName = N'Reservations', @SchemaName = N'Booking';
 	EXEC tSQLt.FakeTable @TableName = N'Hotels', @SchemaName = 'Vendors';
-	EXEC tSQLt.FakeTable @TableName = N'Customers', @SchemaName = N'Booking';
 	
-
 	INSERT INTO Vendors.Hotels (HotelId, Name, HotelState, CostPerNight, AdditionalColumns)
-						VALUES (1, N'PaulHotel', 'AB', 100, NULL)
+						VALUES (1, N'PaulHotel', 'AB', 100, NULL);
 
 	INSERT INTO Booking.Reservations (ReservationId, CustomerId, HotelId, AdditionalColumns)
 							  VALUES (1, 1, 1, NULL)
-									,(2, 1, 1, NULL)
+									,(2, 1, 1, NULL);
 
 	SELECT HotelId, HotelName, HotelState, ReservationCount
 	INTO #Actual
