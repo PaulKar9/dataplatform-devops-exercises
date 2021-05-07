@@ -49,21 +49,15 @@
           <AssociatedConnUserName />
           <FullPath>create.demo.db.sql</FullPath>
         </FileNode>
-        <FileNode Name="HotelReservationCount.view.sql">
+        <FileNode Name="Reports.HotelReservationCount.view.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\PaulKardash:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>VAIM1-DBT-66\PaulKardash</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>HotelReservationCount.view.sql</FullPath>
-        </FileNode>
-        <FileNode Name="Marketing.schema.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\PaulKardash:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>VAIM1-DBT-66\PaulKardash</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>Marketing.schema.sql</FullPath>
+          <FullPath>Reports.HotelReservationCount.view.sql</FullPath>
         </FileNode>
         <FileNode Name="Reports.schema.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\PaulKardash:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\PaulKardash</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Reports.schema.sql</FullPath>
         </FileNode>

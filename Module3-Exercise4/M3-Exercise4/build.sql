@@ -19,8 +19,5 @@ GO
 :r Reports.schema.sql
 GO
 
-:r Marketing.schema.sql
-GO
-
-:r HotelReservationCount.view.sql
+:r Reports.HotelReservationCount.view.sql
 GO
