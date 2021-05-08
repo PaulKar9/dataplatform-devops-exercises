@@ -21,3 +21,6 @@ GO
 
 :r Reports.HotelReservationCount.view.sql
 GO
+
+:r Reports.StateYearReservationCount.view.sql
+GO

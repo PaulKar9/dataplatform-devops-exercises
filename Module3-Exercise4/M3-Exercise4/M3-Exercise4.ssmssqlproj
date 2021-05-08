@@ -61,6 +61,12 @@
           <AssociatedConnUserName />
           <FullPath>Reports.schema.sql</FullPath>
         </FileNode>
+        <FileNode Name="Reports.StateYearReservationCount.view.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\PaulKardash:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\PaulKardash</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Reports.StateYearReservationCount.view.sql</FullPath>
+        </FileNode>
         <FileNode Name="Vendors.Hotels.tbl.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\PaulKardash:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>VAIM1-DBT-66\PaulKardash</AssociatedConnSrvName>

@@ -4,11 +4,6 @@ GO
 CREATE PROCEDURE Reports_HotelReservationCount_Tests.[test 1 - getting 0 hotel reservations; 0 hotels, 0 reservations] 
 AS
 BEGIN
-	EXEC tSQLt.FakeTable @TableName = N'Hotels', @SchemaName = 'Vendors';
-	
-	INSERT INTO Vendors.Hotels(HotelId,Name, HotelState, CostPerNight, AdditionalColumns)
-					   VALUES (1, N'PaulHotel', 'AB', 100, NULL)
-
 	SELECT HotelId, HotelName, HotelState, ReservationCount
 	INTO #Actual
 	FROM Reports.HotelReservationCount
